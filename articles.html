@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles & Blog | Malaysia Eco-Tourism</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Shared Header -->
+    <header>
+        <div class="logo">Beyond the City: Malaysia</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" style="margin-top: 80px; margin-bottom: 50px;">
+        <h1 class="text-green text-light" style="font-size: 4rem; text-align: center;">Traveler's Journal</h1>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto; color: #666;">Insights, guides, and reports on sustainable travel practices within Malaysia.</p>
+    </div>
+
+    <!-- Blog Grid -->
+    <section class="container" style="margin-bottom: 100px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;">
+            
+            <!-- Article 1 -->
+            <article style="background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.03); border-top: 3px solid var(--color-leaf-green);">
+                <div style="height: 200px; background-image: url('images/rainforest.png'); background-size: cover; background-position: center;"></div>
+                <div style="padding: 30px;">
+                    <span style="font-family: var(--font-heading); font-size: 0.8rem; color: #888; letter-spacing: 1px;">MARCH 14, 2026 | CONSERVATION</span>
+                    <h3 style="margin: 10px 0; font-size: 1.5rem; color: var(--color-dark-green);">The Fight to Save the Malayan Tiger</h3>
+                    <p style="font-size: 0.95rem; margin-bottom: 20px;">Eco-tourism revenues are currently funding crucial camera traps and anti-poaching patrols deep within the Belum-Temengor rainforest...</p>
+                    <a href="article-tiger.html" class="btn-action">READ FULL ARTICLE</a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article style="background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.03); border-top: 3px solid var(--color-leaf-green);">
+                <div style="height: 200px; background-image: url('images/marine.png'); background-size: cover; background-position: center;"></div>
+                <div style="padding: 30px;">
+                    <span style="font-family: var(--font-heading); font-size: 0.8rem; color: #888; letter-spacing: 1px;">MARCH 10, 2026 | GUIDES</span>
+                    <h3 style="margin: 10px 0; font-size: 1.5rem; color: var(--color-dark-green);">Reef-Safe Sunscreen: A Necessity</h3>
+                    <p style="font-size: 0.95rem; margin-bottom: 20px;">Before you dive into Sipadan's pristine waters, make sure your sun protection isn't contributing to global coral bleaching events...</p>
+                    <a href="article-sunscreen.html" class="btn-action">READ FULL ARTICLE</a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article style="background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.03); border-top: 3px solid var(--color-leaf-green);">
+                <div style="height: 200px; background-image: url('images/wetlands.png'); background-size: cover; background-position: center;"></div>
+                <div style="padding: 30px;">
+                    <span style="font-family: var(--font-heading); font-size: 0.8rem; color: #888; letter-spacing: 1px;">MARCH 05, 2026 | HIGHLANDS</span>
+                    <h3 style="margin: 10px 0; font-size: 1.5rem; color: var(--color-dark-green);">Trekking the Mossy Forests of Cameron</h3>
+                    <p style="font-size: 0.95rem; margin-bottom: 20px;">An ethereal experience that requires strict pathway adherence to protect the delicate, low-growing cloud forest flora...</p>
+                    <a href="article-cameron.html" class="btn-action">READ FULL ARTICLE</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Malaysia Eco-Tourism Assignment. Created with focus on sustainable design.</p>
+            <div style="margin-top: 15px;">
+                <a href="mailto:i26039751@student.newinti.edu.my" aria-label="Email Me" style="color: var(--color-dark-green); display: inline-block; transition: opacity 0.3s;" onmouseover="this.style.opacity=0.7" onmouseout="this.style.opacity=1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect width="20" height="16" x="2" y="4" rx="2"/>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
